@@ -1,0 +1,1111 @@
+<template>
+<!-- <table class="views-table cols-8 table table-striped">
+        <thead>
+                <tr>
+                        <th>Last</th>
+                        <th>First</th>
+                        <th>Location</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Web</th>
+                        <th>Email</th>
+                        <th>Homepage</th>
+                </tr>
+        </thead>
+        <tbody>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/abadi.jpg?itok=K3duu7Fc&amp;c=af4cb17f3f82f39cfde4801aadaa25d1" width="40" height="40" alt=""></td>		<td> Abadi </td>
+                <td> Daniel </td>
+                <td> Professor<br>Darnell-Kanal Professor of Computer  </td>
+                <td> 3213 </td>
+                <td> 59695 </td>
+                <td> <a href="mailto:abadi@cs.umd.edu" title="abadi@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Ashok%20Agrawala.JPG?itok=QgA7T2mt&amp;c=ec5d82031f86a8a078ffb8b9aa60488e" width="40" height="40" alt="">          </td>		<td> Agrawala </td>
+                <td> Ashok </td>
+                <td> Professor </td>
+                <td> 4149 </td>
+                <td> 52525 </td>
+                <td> <a href="mailto:agrawala@cs.umd.edu" title="agrawala@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~agrawala/" title="http://www.cs.umd.edu/~agrawala/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/picture-273-1502283026.jpg?itok=M8IN5PLg&amp;c=43281ed2b648fbe1e93a24af40615e21" width="40" height="40" alt="Descriptive Image">          </td>		<td> Alagic </td>
+                <td> Gorjan </td>
+                <td> Affiliate Assistant  </td>
+                <td> 3100E Atlantic  </td>
+                <td> (301) 314- </td>
+                <td> <a href="mailto:galagic@umd.edu" title="galagic@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.alagic.org/" title="http://www.alagic.org/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/John%20Aloimonos.jpg?itok=vTWsen-L&amp;c=1e006e4255c6b4f693c0e8fce72ac960" width="40" height="40" alt="">          </td>		<td> Aloimonos </td>
+                <td> John </td>
+                <td> Professor </td>
+                <td> 4475 </td>
+                <td> 51743 </td>
+                <td> <a href="mailto:yiannis@cs.umd.edu" title="yiannis@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cfar.umd.edu/~yiannis/" title="http://www.cfar.umd.edu/~yiannis/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Stading-small.jpg?itok=b52knDHw&amp;c=269c9b640bfa5ce1ab1096c7c9c41a0e" width="40" height="40" alt="">          </td>		<td> Arbaugh </td>
+                <td> William </td>
+                <td> Associate Professor  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:waa@cs.umd.edu" title="waa@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="https://www.cs.umd.edu/~waa" title="https://www.cs.umd.edu/~waa"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/barg.jpg?itok=j99xJV37" width="40" height="40" alt="">          </td>		<td> Barg </td>
+                <td> Alexander </td>
+                <td> Affiliate  </td>
+                <td> 2361 </td>
+                <td> 57135 </td>
+                <td> <a href="mailto:abarg@umd.edu" title="abarg@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.ece.umd.edu/~abarg/" title="http://www.ece.umd.edu/~abarg/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/barua.jpg?itok=xkuKbTKc&amp;c=298b6a182ccd20df1eea6197d03f7cc6" width="40" height="40" alt="">          </td>		<td> Barua </td>
+                <td> Rajeev </td>
+                <td> Affiliate Associate  </td>
+                <td> 1431 </td>
+                <td> 58137 </td>
+                <td> <a href="mailto:barua@eng.umd.edu" title="barua@eng.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.glue.umd.edu/~barua/" title="http://www.glue.umd.edu/~barua/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Victor%20Basili.JPG?itok=oJ9GYMbo&amp;c=44a09228ad0afb5b9ee8c6a8ff124c81" width="40" height="40" alt="">          </td>		<td> Basili </td>
+                <td> Victor </td>
+                <td> Professor Emeritus<br>Research  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:basili@cs.umd.edu" title="basili@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~basili/" title="http://www.cs.umd.edu/~basili/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/leilani_pp.jpg?itok=bpmXaLb9&amp;c=cedafc2560dbb9c69765b4fab76813d3" width="40" height="40" alt="Descriptive Image">          </td>		<td> Battle </td>
+                <td> Leilani </td>
+                <td> Assistant  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:leilani@cs.umd.edu" title="leilani@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/bederson.jpg?itok=zE4IlXaw&amp;c=bc9e97982d831328d2c58f329db26cbb" width="40" height="40" alt="">          </td>		<td> Bederson </td>
+                <td> Ben </td>
+                <td> Professor<br>Associate Provost of Learning Initiatives &amp; Executive Director of Teaching and Learning  </td>
+                <td> HBK  </td>
+                <td> HBK  </td>
+                <td> <a href="mailto:bederson@cs.umd.edu" title="bederson@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~bederson/" title="http://www.cs.umd.edu/~bederson/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Bhattacharjee </td>
+                <td> Bobby </td>
+                <td> Professor </td>
+                <td> 4143 </td>
+                <td> 51658 </td>
+                <td> <a href="mailto:bobby@cs.umd.edu" title="bobby@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~bobby/" title="http://www.cs.umd.edu/~bobby/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/boyd-graber.png?itok=KcRzatFH&amp;c=95ba72f8959b16384a4d977116393fbc" width="40" height="40" alt="">          </td>		<td> Boyd- </td>
+                <td> Jordan </td>
+                <td> Associate  </td>
+                <td> 3155 </td>
+                <td> 56766 </td>
+                <td> <a href="mailto:jbg@cs.umd.edu" title="jbg@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~jbg" title="http://www.umiacs.umd.edu/~jbg"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/marine.jpg?itok=MtNyffUK" width="40" height="40" alt="">          </td>		<td> Carpuat </td>
+                <td> Marine </td>
+                <td> Assistant  </td>
+                <td> 3157 </td>
+                <td> 58801 </td>
+                <td> <a href="mailto:marine@cs.umd.edu" title="marine@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~marine" title="http://www.cs.umd.edu/~marine"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/chellappa.JPG?itok=w7PLhxFm&amp;c=8c73bf5a6d6b2a6bdd5817f6732138c4" width="40" height="40" alt="">          </td>		<td> Chellappa </td>
+                <td> Ramalingam </td>
+                <td> Affiliate Professor<br>Minta Martin Professor of Engineering and Chair; Distinguished University  </td>
+                <td> 4411 </td>
+                <td> 53656 </td>
+                <td> <a href="mailto:rama@cfar.umd.edu" title="rama@cfar.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cfar.umd.edu/~rama/" title="http://www.cfar.umd.edu/~rama/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/amchilds.jpg?itok=23XsnDm6" width="40" height="40" alt="">          </td>		<td> Childs </td>
+                <td> Andrew </td>
+                <td> Professor<br>Co-director, Joint Center for Quantum Information and Computer Science (QuICS) </td>
+                <td> AVW 3225<br>ATL  </td>
+                <td> 52329 </td>
+                <td> <a href="mailto:amchilds@cs.umd.edu" title="amchilds@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://cs.umd.edu/~amchilds" title="http://cs.umd.edu/~amchilds"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/ekc-headshot.png?itok=pvkHRIWD&amp;c=b37c04b9f4e3ca5c73b0bf2d20026bb4" width="40" height="40" alt="Descriptive Image">          </td>		<td> Choe </td>
+                <td> Eun  </td>
+                <td> Affiliate Assistant  </td>
+                <td> 2117F Hornbake Building, South  </td>
+                <td>  </td>
+                <td> <a href="mailto:choe@umd.edu" title="choe@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://eunkyoungchoe.com/" title="http://eunkyoungchoe.com/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Rance%20Cleaveland.JPG?itok=9nrURnu8&amp;c=e999e8565b9734667f6789aca940430b" width="40" height="40" alt="">          </td>		<td> Cleaveland </td>
+                <td> Rance </td>
+                <td> Professor </td>
+                <td> 4111 </td>
+                <td> AVW 58572<br>FC 301-403- </td>
+                <td> <a href="mailto:rance@cs.umd.edu" title="rance@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~rance/" title="http://www.cs.umd.edu/~rance/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/corrada-bravo.png?itok=HrAc49Z3&amp;c=181a7be0ee3c5b1b49e3623730b4ff46" width="40" height="40" alt="">          </td>		<td> Corrada  </td>
+                <td> Hector </td>
+                <td> Associate  </td>
+                <td> BSB 3120F<br>AVW  </td>
+                <td> BSB 52481<br>AVW  </td>
+                <td> <a href="mailto:hcorrada@umiacs.umd.edu" title="hcorrada@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.hcbravo.org" title="http://www.hcbravo.org"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/cukier.jpg?itok=gZF8heV-&amp;c=c3d52dd84edd75ee92de7d70b6834fbb" width="40" height="40" alt="">          </td>		<td> Cukier </td>
+                <td> Michel </td>
+                <td> Affiliate Associate  </td>
+                <td> AVW  </td>
+                <td> 42804 </td>
+                <td> <a href="mailto:mcukier@umd.edu" title="mcukier@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://terpconnect.umd.edu/~mcukier/" title="http://terpconnect.umd.edu/~mcukier/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/cummingsm.jpg?itok=k6xRGt1c&amp;c=a4a2b8288f4cba2593c55a6d7a0145ac" width="40" height="40" alt="">          </td>		<td> Cummings </td>
+                <td> Michael </td>
+                <td> Affiliate Associate  </td>
+                <td> BSB  </td>
+                <td> 59903 </td>
+                <td> <a href="mailto:mike@umiacs.umd.edu" title="mike@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://serine.umiacs.umd.edu/" title="http://serine.umiacs.umd.edu/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Dachman- </td>
+                <td> Dana </td>
+                <td> Affiliate Assistant  </td>
+                <td> 3407  </td>
+                <td> 50794 </td>
+                <td> <a href="mailto:danadach@umd.edu" title="danadach@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/menyc.png?itok=VRvVCi0U" width="40" height="40" alt="">          </td>		<td> Daumé  </td>
+                <td> Hal </td>
+                <td> Associate  </td>
+                <td> 3227 </td>
+                <td> 51073 </td>
+                <td> <a href="mailto:hal@umiacs.umd.edu" title="hal@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~hal/" title="http://www.umiacs.umd.edu/~hal/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Larry%20Davis.jpg?itok=J0TsNFrB&amp;c=9e8b54da1b4b139393826c563c50f283" width="40" height="40" alt="">          </td>		<td> Davis </td>
+                <td> Larry </td>
+                <td> Professor<br>Director of the Center for Automation Research (CfAR) </td>
+                <td> 3301 </td>
+                <td> 56718 </td>
+                <td> <a href="mailto:lsd@cs.umd.edu" title="lsd@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~lsd/" title="http://www.umiacs.umd.edu/~lsd/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/%C2%A9RM2041_crop.jpg?itok=y_MWcjew&amp;c=6d080f0c5053fa05a0f3e48afc274182" width="40" height="40" alt="">          </td>		<td> De  </td>
+                <td> Leila </td>
+                <td> Affiliate  </td>
+                <td> 3161 AV Williams<br>1169 LeFrak  </td>
+                <td> 301-405-4391<br>301-405- </td>
+                <td> <a href="mailto:deflo@umiacs.umd.edu" title="deflo@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~deflo/" title="http://www.umiacs.umd.edu/~deflo/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/deshpande.jpg?itok=AQBUXtIX&amp;c=e27a5ce1b49599cb10499af18def7f4e" width="40" height="40" alt="">          </td>		<td> Deshpande </td>
+                <td> Amol </td>
+                <td> Professor </td>
+                <td> 3221 </td>
+                <td> 52703 </td>
+                <td> <a href="mailto:amol@cs.umd.edu" title="amol@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~amol/" title="http://www.cs.umd.edu/~amol/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/cropped_01.jpg?itok=QmgwlD8n" width="40" height="40" alt="">          </td>		<td> Dickerson </td>
+                <td> John </td>
+                <td> Assistant  </td>
+                <td> 3217 </td>
+                <td> 52774 </td>
+                <td> <a href="mailto:john@cs.umd.edu" title="john@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://jpdickerson.com" title="http://jpdickerson.com"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/dorr.JPG?itok=oe60tZ8i&amp;c=612e8c81b605de1206dc7bdfdc5435cf" width="40" height="40" alt="">          </td>		<td> Dorr </td>
+                <td> Bonnie </td>
+                <td> Professor  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:bonnie@cs.umd.edu" title="bonnie@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~bonnie/" title="http://www.umiacs.umd.edu/~bonnie/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Druschel </td>
+                <td> Peter </td>
+                <td> Adjunct  </td>
+                <td> AV Williams  </td>
+                <td>  </td>
+                <td> <a href="mailto:pdrusche@umd.edu" title="pdrusche@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Dumitras </td>
+                <td> Tudor </td>
+                <td> Affiliate Assistant  </td>
+                <td> 3425  </td>
+                <td> 57466 </td>
+                <td> <a href="mailto:tdumitra@umd.edu" title="tdumitra@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/duraiswami.jpg?itok=oOFOMa90&amp;c=d107cc7d7b5978d84b843ea05287b86e" width="40" height="40" alt="">          </td>		<td> Duraiswami </td>
+                <td> Ramani </td>
+                <td> Professor </td>
+                <td> 3361 </td>
+                <td> 56710 </td>
+                <td> <a href="mailto:ramani@umiacs.umd.edu" title="ramani@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~ramani/" title="http://www.umiacs.umd.edu/~ramani/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Eastman </td>
+                <td> Roger </td>
+                <td> Visiting  </td>
+                <td> 3239 </td>
+                <td> 52773 </td>
+                <td> <a href="mailto:reastman@cs.umd.edu" title="reastman@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/elman%20howard.jpg?itok=rO25s54F&amp;c=884a7607e690933c4c6785e9f5009d3c" width="40" height="40" alt="">          </td>		<td> Elman </td>
+                <td> Howard </td>
+                <td> Professor </td>
+                <td> 3125 </td>
+                <td> 52694 </td>
+                <td> <a href="mailto:elman@cs.umd.edu" title="elman@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~elman/" title="http://www.cs.umd.edu/~elman/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/elmqvist1.jpg?itok=0j2g4Op7&amp;c=2d2aab10be3143c5d921df01a8013b6f" width="40" height="40" alt="">          </td>		<td> Elmqvist </td>
+                <td> Niklas </td>
+                <td> Affiliate Associate  </td>
+                <td> 2117H  </td>
+                <td> 52033 </td>
+                <td> <a href="mailto:elm@umd.edu" title="elm@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Feldman </td>
+                <td> Naomi </td>
+                <td> Affiliate Assistant  </td>
+                <td> 1401 Marie Mount  </td>
+                <td> 55800 </td>
+                <td> <a href="mailto:nhf@umd.edu" title="nhf@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/findlater.jpg?itok=rqjDWXHo" width="40" height="40" alt="">          </td>		<td> Findlater </td>
+                <td> Leah </td>
+                <td> Affiliate Assistant  </td>
+                <td> HBK  </td>
+                <td> 52033 </td>
+                <td> <a href="mailto:leahkf@umd.edu" title="leahkf@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://terpconnect.umd.edu/~leahkf/" title="http://terpconnect.umd.edu/~leahkf/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/IMG_4681%20-%20Version%202.jpg?itok=mda8n_lZ" width="40" height="40" alt="">          </td>		<td> Foster </td>
+                <td> Jeffrey </td>
+                <td> Professor<br>Associate Chair for Graduate  </td>
+                <td> AVW  </td>
+                <td> 52751 </td>
+                <td> <a href="mailto:jfoster@cs.umd.edu" title="jfoster@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~jfoster/" title="http://www.cs.umd.edu/~jfoster/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Frias-Martinez.png?itok=PAI9Mhmh&amp;c=994b64e33cffe38b3ea5d90130e35bc4" width="40" height="40" alt="">          </td>		<td> Frias- </td>
+                <td> Vanessa </td>
+                <td> Affiliate Assistant  </td>
+                <td> 2123B  </td>
+                <td> 52032 </td>
+                <td> <a href="mailto:vfrias@umd.edu" title="vfrias@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/jonf.png?itok=a8Wpf949&amp;c=4fc6d3db9881018a5ae9051d41d606ba" width="40" height="40" alt="">          </td>		<td> Froehlich </td>
+                <td> Jon </td>
+                <td> Adjunct Associate  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:jonf@cs.washington.edu" title="jonf@cs.washington.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="https://www.cs.washington.edu/people/faculty/jonf" title="https://www.cs.washington.edu/people/faculty/jonf"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/billvdw.jpg?itok=eIzgzQh7&amp;c=79a362793dca8767a896e7d39fe0fb0c" width="40" height="40" alt="">          </td>		<td> Gasarch </td>
+                <td> William </td>
+                <td> Professor </td>
+                <td> 3245 </td>
+                <td> 52698 </td>
+                <td> <a href="mailto:gasarch@cs.umd.edu" title="gasarch@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~gasarch/" title="http://www.cs.umd.edu/~gasarch/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/lcg.jpg?itok=ZQy2Kziw&amp;c=5d726ef9905f8d3916d122623fb3f147" width="40" height="40" alt="">          </td>		<td> Getoor </td>
+                <td> Lise </td>
+                <td> Adjunct  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:getoor@cs.umd.edu" title="getoor@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~getoor/" title="http://www.cs.umd.edu/~getoor/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/golbeck%20jen.jpg?itok=hErBzHUw" width="40" height="40" alt="">          </td>		<td> Golbeck </td>
+                <td> Jennifer </td>
+                <td> Affiliate Associate  </td>
+                <td> HBK  </td>
+                <td> 57185 </td>
+                <td> <a href="mailto:jgolbeck@umd.edu" title="jgolbeck@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~golbeck" title="http://www.cs.umd.edu/~golbeck"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/goldstein_02.jpg?itok=TH8mIg9t" width="40" height="40" alt="">          </td>		<td> Goldstein </td>
+                <td> Tom </td>
+                <td> Assistant  </td>
+                <td> 3141 </td>
+                <td> 50053 </td>
+                <td> <a href="mailto:tomg@cs.umd.edu" title="tomg@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~tomg" title="http://www.cs.umd.edu/~tomg"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/John%20Grant.jpg?itok=RKyPcc6D&amp;c=9dab11dbe37b4e66e2df439752a4169c" width="40" height="40" alt="">          </td>		<td> Grant </td>
+                <td> John </td>
+                <td> Adjunct  </td>
+                <td> 3209 </td>
+                <td> 50689 </td>
+                <td> <a href="mailto:grant@cs.umd.edu" title="grant@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/mohammad%20%281%20of%201%29.jpg?itok=wgMZqP8V&amp;c=292781253210da8672df53ac8245d81e" width="40" height="40" alt="Descriptive Image">          </td>		<td> Hajiaghayi </td>
+                <td> Mohammad </td>
+                <td> Professor<br>Jack and Rita G. Minker  </td>
+                <td> 3249 </td>
+                <td> 52741 </td>
+                <td> <a href="mailto:hajiagha@cs.umd.edu" title="hajiagha@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~hajiagha/" title="http://www.cs.umd.edu/~hajiagha/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Hamidzadeh </td>
+                <td> Babak </td>
+                <td> Affiliate Associate  </td>
+                <td> B0116A Mckeldin  </td>
+                <td> 40409 </td>
+                <td> <a href="mailto:babak1@umd.edu" title="babak1@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Hannenhalli.jpg?itok=AbXdwnyg" width="40" height="40" alt="">          </td>		<td> Hannenhalli </td>
+                <td> Sridhar </td>
+                <td> Affiliate Associate  </td>
+                <td> 3104G  </td>
+                <td> 58219 </td>
+                <td> <a href="mailto:sridhar@umiacs.umd.edu" title="sridhar@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/hicks.jpg?itok=1OZBaRaP" width="40" height="40" alt="">          </td>		<td> Hicks </td>
+                <td> Michael </td>
+                <td> Professor<br>Associate Chair of Undergraduate Education; Distinguished Scholar- </td>
+                <td> 3417 AV Williams  </td>
+                <td> 52710 </td>
+                <td> <a href="mailto:mwh@cs.umd.edu" title="mwh@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~mwh/" title="http://www.cs.umd.edu/~mwh/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Jeff%20Hollingsworth.JPG?itok=gdcEnATR" width="40" height="40" alt="">          </td>		<td> Hollingsworth </td>
+                <td> Jeffrey K. </td>
+                <td> Professor </td>
+                <td> 4155  </td>
+                <td> 52708 </td>
+                <td> <a href="mailto:hollings@cs.umd.edu" title="hollings@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~hollings/" title="http://www.cs.umd.edu/~hollings/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Horty </td>
+                <td> John </td>
+                <td> Affiliate  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:horty@umd.edu" title="horty@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Portrait.jpg?itok=6Qn7Pyju" width="40" height="40" alt="">          </td>		<td> Huang </td>
+                <td> Furong </td>
+                <td> Assistant  </td>
+                <td> 3251 </td>
+                <td> 58010 </td>
+                <td> <a href="mailto:furongh@cs.umd.edu" title="furongh@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://furong-huang.com" title="http://furong-huang.com"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/ja%27ja%27%20joseph.jpg?itok=gb6rlPdV&amp;c=9dab11dbe37b4e66e2df439752a4169c" width="40" height="40" alt="">          </td>		<td> Ja' Ja' </td>
+                <td> Joseph </td>
+                <td> Affiliate  </td>
+                <td> 3433 </td>
+                <td> 51925 </td>
+                <td> <a href="mailto:joseph@umiacs.umd.edu" title="joseph@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~joseph/" title="http://www.umiacs.umd.edu/~joseph/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/jacob%20bruce.jpg?itok=Ehqb3o2S&amp;c=958fdf235724220bad3f789011c8c872" width="40" height="40" alt="">          </td>		<td> Jacob </td>
+                <td> Bruce </td>
+                <td> Affiliate Associate  </td>
+                <td> 1325 </td>
+                <td> 50432 </td>
+                <td> <a href="mailto:blj@umd.edu" title="blj@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/DavidJacobs.JPG?itok=MgmL6n6F&amp;c=36a0f818af69ace8b9e4a2df116c292a" width="40" height="40" alt="">          </td>		<td> Jacobs </td>
+                <td> David </td>
+                <td> Professor<br>Associate Chair of Graduate  </td>
+                <td> 4421 </td>
+                <td> 50679 </td>
+                <td> <a href="mailto:djacobs@cs.umd.edu" title="djacobs@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~djacobs" title="http://www.cs.umd.edu/~djacobs"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Jalali </td>
+                <td> Aliakbar </td>
+                <td> Visiting  </td>
+                <td> 3261 </td>
+                <td> 52674 </td>
+                <td> <a href="mailto:drjalali@umd.edu" title="drjalali@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/kacorri_hernisa-05.jpg?itok=kl7jWGDd" width="40" height="40" alt="Descriptive Image">          </td>		<td> Kacorri </td>
+                <td> Hernisa </td>
+                <td> Affiliate Assistant  </td>
+                <td> 2118A Hornbake Builidng, South  </td>
+                <td> 301-405- </td>
+                <td> <a href="mailto:hernisa@umd.edu" title="hernisa@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://ischool.umd.edu/faculty-staff/hernisa-kacorri" title="http://ischool.umd.edu/faculty-staff/hernisa-kacorri"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/kanal.gif?itok=K7sCrqsN&amp;c=a0a5416945b456af544b3fe37cc377aa" width="40" height="40" alt="">          </td>		<td> Kanal </td>
+                <td> Laveen </td>
+                <td> Professor  </td>
+                <td> 3261 </td>
+                <td> 52674 </td>
+                <td> <a href="mailto:kanal@cs.umd.edu" title="kanal@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~kanal/" title="http://www.cs.umd.edu/~kanal/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/katz%20jonathan.jpg?itok=Vkx8hZ-K&amp;c=269c9b640bfa5ce1ab1096c7c9c41a0e" width="40" height="40" alt="">          </td>		<td> Katz </td>
+                <td> Jonathan </td>
+                <td> Professor<br>Distinguished Scholar- </td>
+                <td> 3415 </td>
+                <td> 51226 </td>
+                <td> <a href="mailto:jkatz@cs.umd.edu" title="jkatz@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~jkatz/" title="http://www.cs.umd.edu/~jkatz/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/keleher%20pete.jpg?itok=atHrCtJy&amp;c=8c73bf5a6d6b2a6bdd5817f6732138c4" width="40" height="40" alt="">          </td>		<td> Keleher </td>
+                <td> Pete </td>
+                <td> Associate  </td>
+                <td> 4157 </td>
+                <td> 50345 </td>
+                <td> <a href="mailto:keleher@cs.umd.edu" title="keleher@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://pete.kelehers.me" title="http://pete.kelehers.me"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Leadership%20%283%20of%203%29.jpg?itok=67yrpJz8&amp;c=ed81349c509d3bc52b16af95afbcf586" width="40" height="40" alt="">          </td>		<td> Khuller </td>
+                <td> Samir </td>
+                <td> Professor<br>Distinguished Scholar   </td>
+                <td> 3369 </td>
+                <td> 56765 </td>
+                <td> <a href="mailto:samir@cs.umd.edu" title="samir@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~samir/" title="http://www.cs.umd.edu/~samir/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/kruskal%20clyde.jpg?itok=SD34y1WD&amp;c=5070076d1f1141c08085d86dd37836b3" width="40" height="40" alt="">          </td>		<td> Kruskal </td>
+                <td> Clyde </td>
+                <td> Associate  </td>
+                <td> 3215 </td>
+                <td> 52683 </td>
+                <td> <a href="mailto:kruskal@cs.umd.edu" title="kruskal@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~kruskal/" title="http://www.cs.umd.edu/~kruskal/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Kwon </td>
+                <td> Tae  </td>
+                <td> Visiting Associate  </td>
+                <td> AVW  </td>
+                <td> 52774 </td>
+                <td> <a href="mailto:kwon@cs.umd.eu" title="kwon@cs.umd.eu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/picture-88-1476632271_0.png?itok=WJf65112" width="40" height="40" alt="">          </td>		<td> Lackey </td>
+                <td> Brad </td>
+                <td> Adjunct  </td>
+                <td> CSS  </td>
+                <td> 41819 </td>
+                <td> <a href="mailto:bclackey@umd.edu" title="bclackey@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/MaxL1-small.jpg?itok=wNaciuyM" width="40" height="40" alt="">          </td>		<td> Leiserson </td>
+                <td> Max </td>
+                <td> Assistant  </td>
+                <td> Biomolecular Sciences Building 3113<br>AVW  </td>
+                <td> (301) 405- </td>
+                <td> <a href="mailto:mdml@cs.umd.edu" title="mdml@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="https://lrgr.io" title="https://lrgr.io"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/dml-cropped-tiny.png?itok=7U-6ZaFx" width="40" height="40" alt="Descriptive Image">          </td>		<td> Levin </td>
+                <td> Dave </td>
+                <td> Assistant Professor<br>CS Honors  </td>
+                <td> 3411 AVW (in MC2) </td>
+                <td> 5- </td>
+                <td> <a href="mailto:dml@cs.umd.edu" title="dml@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="https://www.cs.umd.edu/~dml/" title="https://www.cs.umd.edu/~dml/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Ming_Lin_UMIACS_0.jpg?itok=ifbuXnHs&amp;c=a52740f8d21f8d0a07923a1dd547625b" width="40" height="40" alt="Descriptive Image">          </td>		<td> Lin </td>
+                <td> Ming </td>
+                <td> Professor<br>Elizabeth Stevinson Iribe Chair of Computer  </td>
+                <td> AVW 4179<br>AVW  </td>
+                <td> 52662<br> </td>
+                <td> <a href="mailto:lin@cs.umd.edu" title="lin@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/lindvall%20mikael.gif?itok=KHibbr_G&amp;c=6ba92ec187d9b70c685262e741ad001e" width="40" height="40" alt="">          </td>		<td> Lindvall </td>
+                <td> Mikael </td>
+                <td> Adjunct  </td>
+                <td> Fraunhofer Ctr. </td>
+                <td> 301-403- </td>
+                <td> <a href="mailto:mikli@fc-md.umd.edu" title="mikli@fc-md.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/ykliu.jpg?itok=fOqFkzHF&amp;c=294f240bcab97686143331c15ece4203" width="40" height="40" alt="">          </td>		<td> Liu </td>
+                <td> Yi- </td>
+                <td> Adjunct Associate  </td>
+                <td> 3100J Atlantic  </td>
+                <td> (301) 314- </td>
+                <td> <a href="mailto:yikailiu@umd.edu" title="yikailiu@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="https://sites.google.com/site/yikailiu00/" title="https://sites.google.com/site/yikailiu00/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Manocha </td>
+                <td> Dinesh </td>
+                <td> Visiting  </td>
+                <td> 3249 </td>
+                <td> 52741 </td>
+                <td> <a href="mailto:dm@cs.umd.edu" title="dm@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/marciano.jpg?itok=m-XVkbpq&amp;c=c3a443592bbe60be31f0aabd244a6334" width="40" height="40" alt="">          </td>		<td> Marciano </td>
+                <td> Richard </td>
+                <td> Affiliate  </td>
+                <td> HBK 4120J, South  </td>
+                <td> (301) 314- </td>
+                <td> <a href="mailto:marciano@umd.edu" title="marciano@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Marzullo </td>
+                <td> Keith </td>
+                <td> Affiliate  </td>
+                <td> 4105 Hornbake  </td>
+                <td> 301-405- </td>
+                <td> <a href="mailto:marzullo@umd.edu" title="marzullo@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://ischool.umd.edu/news/dr-keith-marzullo-named-dean-college-information-studies" title="http://ischool.umd.edu/news/dr-keith-marzullo-named-dean-college-information-studies"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/mazurek-9394.jpg?itok=hEuK6tCP" width="40" height="40" alt="">          </td>		<td> Mazurek </td>
+                <td> Michelle </td>
+                <td> Assistant  </td>
+                <td> AVW  </td>
+                <td> 56463 </td>
+                <td> <a href="mailto:mmazurek@cs.umd.edu" title="mmazurek@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~mmazurek/" title="http://www.umiacs.umd.edu/~mmazurek/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/AtifMemon.jpg?itok=YLw0_Hz9&amp;c=051ab99c96e363dca3e63c9f70dfb5b2" width="40" height="40" alt="">          </td>		<td> Memon </td>
+                <td> Atif </td>
+                <td> Professor </td>
+                <td> 4113 </td>
+                <td> 53071 </td>
+                <td> <a href="mailto:atif@cs.umd.edu" title="atif@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~atif/" title="http://www.cs.umd.edu/~atif/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/miller%20raymond.gif?itok=FJda_8vN&amp;c=fba58f6513b225d4eec0d2df4badd005" width="40" height="40" alt="">          </td>		<td> Miller </td>
+                <td> Raymond </td>
+                <td> Professor  </td>
+                <td> 3229 </td>
+                <td> 52675 </td>
+                <td> <a href="mailto:miller@cs.umd.edu" title="miller@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~miller/" title="http://www.cs.umd.edu/~miller/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Carl_0.png?itok=QtKOngDM&amp;c=5f8ac18fd873974d9840b310217a4dfb" width="40" height="40" alt="">          </td>		<td> Miller </td>
+                <td> Carl </td>
+                <td> Adjunct Assistant  </td>
+                <td> 3102 Atlantic Bldg. </td>
+                <td> (301) 405- </td>
+                <td> <a href="mailto:camiller@umd.edu" title="camiller@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~camiller" title="http://www.umiacs.umd.edu/~camiller"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Jack%20Minker.jpg?itok=6VDGGa4C&amp;c=6b0de4958dfd06f903823f15c5105120" width="40" height="40" alt="">          </td>		<td> Minker </td>
+                <td> Jack </td>
+                <td> Professor  </td>
+                <td> 3231 </td>
+                <td> 52676 </td>
+                <td> <a href="mailto:minker@cs.umd.edu" title="minker@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://prism.cs.umd.edu/people/minker.html" title="http://prism.cs.umd.edu/people/minker.html"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/David%20Mount.jpg?itok=UC7Ri5C4&amp;c=f697d0c47680a3a2fd615554f54225bf" width="40" height="40" alt="">          </td>		<td> Mount </td>
+                <td> David </td>
+                <td> Professor<br>Associate Chair of Undergraduate  </td>
+                <td> 3373 </td>
+                <td> 52704 </td>
+                <td> <a href="mailto:mount@cs.umd.edu" title="mount@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~mount/" title="http://www.cs.umd.edu/~mount/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/nau%20dana.png?itok=i0As5qiZ&amp;c=ea9b7e87c58bb9328a401f4220a78e4a" width="40" height="40" alt="">          </td>		<td> Nau </td>
+                <td> Dana </td>
+                <td> Professor </td>
+                <td> 3241 </td>
+                <td> 52684 </td>
+                <td> <a href="mailto:nau@cs.umd.edu" title="nau@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~nau/" title="http://www.cs.umd.edu/~nau/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/o%27leary%20diane.jpg?itok=cbDCu7ZA&amp;c=eb6ecc7f1404295a4b3bb3e2890edb2c" width="40" height="40" alt="">          </td>		<td> O' </td>
+                <td> Dianne </td>
+                <td> Professor Emerita<br>Distinguished University  </td>
+                <td> 3271 </td>
+                <td> 52678 </td>
+                <td> <a href="mailto:oleary@cs.umd.edu" title="oleary@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~oleary/" title="http://www.cs.umd.edu/~oleary/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/oard%20douglas.jpg?itok=0B6Wn33q" width="40" height="40" alt="">          </td>		<td> Oard </td>
+                <td> Doug </td>
+                <td> Affiliate  </td>
+                <td> 3145 </td>
+                <td> 55582 </td>
+                <td> <a href="mailto:oard@umd.edu" title="oard@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.ee.umd.edu/~oard/" title="http://www.ee.umd.edu/~oard/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Papamanthou </td>
+                <td> Charalampos (Babis) </td>
+                <td> Affiliate Assistant  </td>
+                <td> 3409  </td>
+                <td> 57212 </td>
+                <td> <a href="mailto:cpap@umd.edu" title="cpap@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/perlis%20don.jpg?itok=bru-9BXF&amp;c=6dceb2b266b31a93f1f3268a92035e3c" width="40" height="40" alt="">          </td>		<td> Perlis </td>
+                <td> Don </td>
+                <td> Professor </td>
+                <td> 3253 </td>
+                <td> 52685 </td>
+                <td> <a href="mailto:perlis@cs.umd.edu" title="perlis@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~perlis/" title="http://www.cs.umd.edu/~perlis/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Mihai_cropped.jpg?itok=L556aX-6" width="40" height="40" alt="Descriptive Image">          </td>		<td> Pop </td>
+                <td> Mihai </td>
+                <td> Professor<br>Interim Director, University of Maryland Institute for Advanced Computer Studies (UMIACS) </td>
+                <td> BSB 3120F (primary)<br>AVW  </td>
+                <td> BSB x57245 (primary)<br>AVW  </td>
+                <td> <a href="mailto:mpop@umiacs.umd.edu" title="mpop@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cbcb.umd.edu/~mpop/" title="http://www.cbcb.umd.edu/~mpop/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/porter%20adam.JPG?itok=2q7s0gsT&amp;c=d6270116b97e7629b6454c1eb89ba6ee" width="40" height="40" alt="">          </td>		<td> Porter </td>
+                <td> Adam </td>
+                <td> Professor<br>Fraunhofer Executive  </td>
+                <td> 4125 </td>
+                <td> 52702 </td>
+                <td> <a href="mailto:aporter@cs.umd.edu" title="aporter@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~aporter/" title="http://www.cs.umd.edu/~aporter/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/pugh%20william.jpg?itok=QlCP2uyE" width="40" height="40" alt="">          </td>		<td> Pugh </td>
+                <td> William </td>
+                <td> Professor  </td>
+                <td> 4145 </td>
+                <td>  </td>
+                <td> <a href="mailto:pugh@cs.umd.edu" title="pugh@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~pugh/" title="http://www.cs.umd.edu/~pugh/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Purtilo </td>
+                <td> James </td>
+                <td> Associate  </td>
+                <td> 4437 </td>
+                <td> 52706 </td>
+                <td> <a href="mailto:purtilo@cs.umd.edu" title="purtilo@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://seam.cs.umd.edu/purtilo/" title="http://seam.cs.umd.edu/purtilo/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Raghavan </td>
+                <td> Subramanian </td>
+                <td> Affiliate  </td>
+                <td> Robert H. Smith School of Business &amp; Institue for Systems  </td>
+                <td> 301-405- </td>
+                <td> <a href="mailto:raghavan@umd.edu" title="raghavan@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.terpconnect.umd.edu/~raghavan" title="http://www.terpconnect.umd.edu/~raghavan"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/raschid%20louiqa.jpg?itok=kaa-F_yl&amp;c=9dab11dbe37b4e66e2df439752a4169c" width="40" height="40" alt="">          </td>		<td> Raschid </td>
+                <td> Louiqa </td>
+                <td> Affiliate  </td>
+                <td> AVW  </td>
+                <td> 56747 </td>
+                <td> <a href="mailto:louiqa@umiacs.cs.umd.edu" title="louiqa@umiacs.cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Arnab_0.jpg?itok=msP0rh9Y" width="40" height="40" alt="">          </td>		<td> Ray </td>
+                <td> Arnab </td>
+                <td> Adjunct Associate Professor<br>Senior Research Scientist, Fraunhofer Center for Experimental Software  </td>
+                <td> Baxter International, Inc. </td>
+                <td>  </td>
+                <td> <a href="mailto:aray@fc-md.umd.edu" title="aray@fc-md.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/reggia%20james.jpg?itok=QXRAXhP0&amp;c=9dab11dbe37b4e66e2df439752a4169c" width="40" height="40" alt="">          </td>		<td> Reggia </td>
+                <td> James </td>
+                <td> Professor </td>
+                <td> 3233 </td>
+                <td> 52686 </td>
+                <td> <a href="mailto:reggia@cs.umd.edu" title="reggia@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~reggia/" title="http://www.cs.umd.edu/~reggia/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/regli.jpeg?itok=LYLeWR-H&amp;c=5da066d739282bce2a0a693beac13a40" width="40" height="40" alt="Descriptive Image">          </td>		<td> Regli </td>
+                <td> William </td>
+                <td> Professor<br>Director, Institute for Systems Research (ISR) </td>
+                <td> AVW  </td>
+                <td> 56738 </td>
+                <td> <a href="mailto:regli@cs.umd.edu" title="regli@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/resnik.jpg?itok=EhvJyVwk&amp;c=a443b9d2980f84743e4dcd59480796f6" width="40" height="40" alt="">          </td>		<td> Resnik </td>
+                <td> Philip </td>
+                <td> Affiliate  </td>
+                <td> MMH  </td>
+                <td> 56760 </td>
+                <td> <a href="mailto:resnik@umiacs.umd.edu" title="resnik@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~resnik/" title="http://www.umiacs.umd.edu/~resnik/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Roussopolos%20nick.jpg?itok=5Iag1PQe" width="40" height="40" alt="">          </td>		<td> Roussopoulos </td>
+                <td> Nicholas </td>
+                <td> Professor </td>
+                <td> 3235 </td>
+                <td> 52687 </td>
+                <td> <a href="mailto:nick@cs.umd.edu" title="nick@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Eytan2.JPG?itok=ODKjAr8U&amp;c=f994382375eb134633d840034dcf93af" width="40" height="40" alt="">          </td>		<td> Ruppin </td>
+                <td> Eytan </td>
+                <td> Professor </td>
+                <td> 3125  </td>
+                <td> 59611 </td>
+                <td> <a href="mailto:ruppin@umiacs.umd.edu" title="ruppin@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="https://sites.umiacs.umd.edu/ruppinlab/" title="https://sites.umiacs.umd.edu/ruppinlab/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/sahoo_pic_0.PNG?itok=wJ27QSxX" width="40" height="40" alt="">          </td>		<td> Sahoo </td>
+                <td> Anirudha (Anirud) </td>
+                <td> Adjunct  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:sahoo@cs.umd.edu" title="sahoo@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~sahoo" title="http://www.cs.umd.edu/~sahoo"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/samet.jpg?itok=HK-zd2Pa&amp;c=28459958ee631160fb08c2c4b4d87809" width="40" height="40" alt="">          </td>		<td> Samet </td>
+                <td> Hanan </td>
+                <td> Professor<br>Distinguished University  </td>
+                <td> 4425 </td>
+                <td> 51755 </td>
+                <td> <a href="mailto:hjs@cs.umd.edu" title="hjs@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~hjs/" title="http://www.cs.umd.edu/~hjs/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Shankar.jpg?itok=ZaCYaVKz" width="40" height="40" alt="">          </td>		<td> Shankar </td>
+                <td> A.  </td>
+                <td> Professor </td>
+                <td> 4141 </td>
+                <td> 52688 </td>
+                <td> <a href="mailto:shankar@cs.umd.edu" title="shankar@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~shankar" title="http://www.cs.umd.edu/~shankar"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Shi </td>
+                <td> Elaine </td>
+                <td> Adjunct Associate  </td>
+                <td> Cornell  </td>
+                <td>  </td>
+                <td> <a href="mailto:runting@gmail.com" title="runting@gmail.com"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://elaineshi.com/" title="http://elaineshi.com/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/shneiderman%20ben.jpg?itok=yL21i4lp&amp;c=13b58e02f8e205167d634238eb28de8b" width="40" height="40" alt="">          </td>		<td> Shneiderman </td>
+                <td> Ben </td>
+                <td> Professor Emeritus<br>Distinguished University  </td>
+                <td> 3177 </td>
+                <td> 52680 </td>
+                <td> <a href="mailto:ben@cs.umd.edu" title="ben@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~ben/" title="http://www.cs.umd.edu/~ben/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/IMG-20171125-WA0028.jpg?itok=x9aB8aIe&amp;c=550fd3fb3e14f51333966f288edc3484" width="40" height="40" alt="Descriptive Image">          </td>		<td> Shrivastava </td>
+                <td> Abhinav </td>
+                <td> Assistant  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:abhinav@cs.umd.edu" title="abhinav@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://abhinavsh.info/" title="http://abhinavsh.info/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Slivkins </td>
+                <td> Aleksandrs </td>
+                <td> Adjunct Associate  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> <a href="mailto:slivkins@microsoft.com" title="slivkins@microsoft.com"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/zcx500.jpeg?itok=Yv3j8lRl&amp;c=d2b8e59e3a59c8d93d29737af2fec636" width="40" height="40" alt="">          </td>		<td> Spring </td>
+                <td> Neil </td>
+                <td> Professor<br>Associate Chair of  </td>
+                <td> 4133 </td>
+                <td> 52909 </td>
+                <td> <a href="mailto:nspring@cs.umd.edu" title="nspring@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~nspring/" title="http://www.cs.umd.edu/~nspring/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/Aravind%20Srinivasan.jpg?itok=vl6ixXNI&amp;c=c5bc648b608a517f8e2e0865f8b09b77" width="40" height="40" alt="">          </td>		<td> Srinivasan </td>
+                <td> Aravind </td>
+                <td> Professor </td>
+                <td> 3263 </td>
+                <td> 52695 </td>
+                <td> <a href="mailto:srin@cs.umd.edu" title="srin@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~srin/" title="http://www.cs.umd.edu/~srin/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/newzealand.jpg?itok=vKvuTSaA&amp;c=b236c3ad0d2e6c006727e0cb97ac6ae9" width="40" height="40" alt="">          </td>		<td> Stewart </td>
+                <td> G.W. (Pete) </td>
+                <td> Professor Emeritus<br>Distinguished University  </td>
+                <td> 3265 </td>
+                <td> 52681 </td>
+                <td> <a href="mailto:stewart@cs.umd.edu" title="stewart@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~stewart/" title="http://www.cs.umd.edu/~stewart/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/als-2012.jpg?itok=eb9A883p&amp;c=269c9b640bfa5ce1ab1096c7c9c41a0e" width="40" height="40" alt="">          </td>		<td> Sussman </td>
+                <td> Alan </td>
+                <td> Professor </td>
+                <td> 4121  </td>
+                <td> x53360 </td>
+                <td> <a href="mailto:als@cs.umd.edu" title="als@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~als/" title="http://www.cs.umd.edu/~als/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/default_images/user_icon.png?itok=63eCRzxf" width="40" height="40" alt="">          </td>		<td> Taylor </td>
+                <td> Gavin </td>
+                <td> Adjunct Assistant  </td>
+                <td> AV Williams  </td>
+                <td>  </td>
+                <td> <a href="mailto:gtaylor7@umd.edu" title="gtaylor7@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td>  </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/tits.jpg?itok=lPu-GhMf&amp;c=7d80b70944cd0f52a7fc33ab4c97457c" width="40" height="40" alt="">          </td>		<td> Tits </td>
+                <td> Andre </td>
+                <td> Affiliate  </td>
+                <td> 2271 </td>
+                <td> 53669 </td>
+                <td> <a href="mailto:andre@umd.edu" title="andre@umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.ee.umd.edu/~andre/" title="http://www.ee.umd.edu/~andre/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/DSC_0054.jpg?itok=aImtW-9N&amp;c=17ca4d94983b2a38294b9d1e2d3b711b" width="40" height="40" alt="">          </td>		<td> Van  </td>
+                <td> David </td>
+                <td> Assistant  </td>
+                <td> 3439 </td>
+                <td> 52715 </td>
+                <td> <a href="mailto:dvanhorn@cs.umd.edu" title="dvanhorn@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://ter.ps/dvanhorn" title="http://ter.ps/dvanhorn"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/AVPortrait.png?itok=J7762Lmi" width="40" height="40" alt="Descriptive Image">          </td>		<td> Varshney </td>
+                <td> Amitabh </td>
+                <td> Professor<br>Dean, College of Computer, Mathematical, and Natural  </td>
+                <td> 4407 AVW<br>2300  </td>
+                <td> 5-6761<br>5- </td>
+                <td> <a href="mailto:varshney@cs.umd.edu" title="varshney@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.cs.umd.edu/~varshney/" title="http://www.cs.umd.edu/~varshney/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/vishkin%20uzi.jpg?itok=Ua-Ywfln&amp;c=2d5e49a3758d79e14fdd938f07f36581" width="40" height="40" alt="">          </td>		<td> Vishkin </td>
+                <td> Uzi </td>
+                <td> Affiliate  </td>
+                <td> 2365 </td>
+                <td> 56763 </td>
+                <td> <a href="mailto:vishkin@umiacs.umd.edu" title="vishkin@umiacs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.umiacs.umd.edu/~vishkin/" title="http://www.umiacs.umd.edu/~vishkin/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/head1.jpg?itok=DOyDjS-y&amp;c=235b0b5fa62a326443f66107b36c005b" width="40" height="40" alt="Descriptive Image">          </td>		<td> Wu </td>
+                <td> Xiaodi </td>
+                <td> Assistant  </td>
+                <td> AVW 3257<br>CSS  </td>
+                <td>  </td>
+                <td> <a href="mailto:xwu@cs.umd.edu" title="xwu@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="https://www.cs.umd.edu/~xwu" title="https://www.cs.umd.edu/~xwu"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+	<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/yeung%20donald.jpg?itok=Af6jpEHE&amp;c=269c9b640bfa5ce1ab1096c7c9c41a0e" width="40" height="40" alt="">          </td>		<td> Yeung </td>
+                <td> Donald </td>
+                <td> Affiliate Associate  </td>
+                <td> 1327 </td>
+                <td> 53649 </td>
+                <td> <a href="mailto:yeung@glue.umd.edu" title="yeung@glue.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://www.ece.umd.edu/~yeung/" title="http://www.ece.umd.edu/~yeung/"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/zelkowitz.jpg?itok=HzpqmvTd&amp;c=b1712e3ecdfe0f4081c46e0595d54db9" width="40" height="40" alt="">          </td>		<td> Zelkowitz </td>
+                <td> Marvin </td>
+                <td> Professor  </td>
+                <td> 3175 </td>
+                <td> 52690 </td>
+                <td> <a href="mailto:mvz@cs.umd.edu" title="mvz@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> </td>
+        </tr>
+		<tr>
+		<td><img typeof="foaf:Image" src="http://www.cs.umd.edu/sites/default/files/styles/40px_icon/public/images/userpictures/portrait_0.jpg?itok=DLRqlJ_c" width="40" height="40" alt="">          </td>		<td> Zwicker </td>
+                <td> Matthias </td>
+                <td> Professor<br>Reginald Allan Hahne Endowed E-nnovate  </td>
+                <td> 3139 </td>
+                <td> 50319 </td>
+                <td> <a href="mailto:zwicker@cs.umd.edu" title="zwicker@cs.umd.edu"><span class="glyphicon glyphicon-envelope"></span><span class="text-hide">email</span></a> </td>
+                <td> <a href="http://cs.umd.edu/~zwicker" title="http://cs.umd.edu/~zwicker"><span class="glyphicon glyphicon-globe"></span><span class="text-hide">homepage</span></a> </td>
+        </tr>
+        </tbody>
+
+</table> -->
+<div>
+  <b-table 
+    :data="professors" 
+    detailed
+  >
+
+  <template slot-scope="props">
+    <b-table-column field="picture" label="Picture" width="40">
+        <span v-html="props.row.picture"></span>
+    </b-table-column>
+
+    <b-table-column field="last" label="Last Name" width="40" sortable>
+        {{ props.row.last }}
+    </b-table-column>
+
+    <b-table-column field="first" label="First Name" width="40" sortable>
+        {{ props.row.first }}
+    </b-table-column>
+
+    <b-table-column field="title" label="Title" width="40" sortable>
+        {{ props.row.title }}
+    </b-table-column>
+
+    <b-table-column field="location" label="Office" width="40" sortable>
+        {{ props.row.location }}
+    </b-table-column>
+
+    <b-table-column field="phone" label="Phone Number" width="40">
+        {{ props.row.phone }}
+    </b-table-column>
+
+    <b-table-column field="email" label="Email" width="40">
+        <span v-html="props.row.email"></span>
+    </b-table-column>
+
+    <b-table-column field="homepage" label="Homepage" width="40">
+        <span v-html="props.row.homepage"></span>
+    </b-table-column>
+  </template>
+
+   <template slot="detail" slot-scope="props">
+      <article class="media">
+          <div class="media-content">
+              <div class="content">
+                  <p>
+                      <strong>{{ props.row.first }} {{ props.row.last }}</strong>
+                      <small>@{{ props.row.first }}</small>
+                      <br>
+                      Nothing here yet.
+                  </p>
+              </div>
+          </div>
+      </article>
+    </template>
+  
+  </b-table>
+</div>
+</template>
+
+<script>
+import Vue from 'vue'
+import Buefy from 'buefy'
+import 'buefy/lib/buefy.css'
+
+Vue.use(Buefy)
+
+const directory_data = require('../data/directory.csv')
+
+export default {
+  data() {
+    return {
+      professors: directory_data,
+    }
+  }
+}
+</script>
